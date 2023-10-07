@@ -1,0 +1,7 @@
+# name = input("Enter name：")
+# age = input("Enter age：")
+# print("your name is %s and your age is %s" % name,age)
+name = input("Enter name：")
+age = input("Enter age：")
+print("your name is %s and your age is %s" % (name,age))
+print(f"your name is {name} and your age is {age}")
